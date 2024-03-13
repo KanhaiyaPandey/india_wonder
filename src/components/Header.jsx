@@ -11,13 +11,15 @@ const Header = () => {
 
      
    
-      <div className=" justify-center items-center absolute top-0 mt-10 flex flex-col gap-3 text-white capitalize"
+      <div className=" justify-center items-center absolute top-0  flex flex-col gap-3 text-white capitalize"
         data-scroll data-scroll-direction="verticall"
-        data-scroll-speed="-4">
+        data-scroll-speed="-8">
       <h1 className=" text-9xl font-semibold z-10">Namaste</h1>
       </div>
 
-      <div className="justify-center items-start absolute top-96 left-20 bottom-10 flex flex-col gap-3 text-white capitalize">
+      <div className="justify-center items-start absolute top-96 left-20 bottom-10 flex flex-col gap-3 text-white capitalize"
+       data-scroll data-scroll-direction="horizontal"
+       data-scroll-speed="0">
       <img src="/india-gate.png" alt="" className=" z-40 "
              data-scroll data-scroll-direction="verticall"
              data-scroll-speed="1" />
